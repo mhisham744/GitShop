@@ -1,0 +1,106 @@
+
+.twitterfeed .user img {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 4px;
+    height: 48px;
+    left: -57px;
+    position: absolute;
+    top: 0;
+    width: 48px;
+}
+.twitterfeed .user img {
+    border: 0 none;
+}
+
+.twitterfeed .user span[data-scribe="element:name"] {
+	   color: #292f33;
+	   font-size: 14px;
+	   font-weight: bold;
+	
+}
+.twitterfeed .user span[data-scribe="element:screen_name"] {
+	   color: #707070;
+	   font-size: 12px;
+}
+
+
+.twitterfeed .user::before, .twitterfeed .user::after {
+    content: "";
+    display: table;
+}
+.twitterfeed .user::after {
+    clear: both;
+}
+.twitterfeed .user::before, .twitterfeed .user::after {
+    content: "";
+    display: table;
+}
+.twitterfeed .header {
+	position: relative;
+	font-size: 14px;
+    line-height: 18px;
+	
+}
+
+.twitterfeed .tweet {
+    color: #292f33;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.twitterfeed .tweet a{
+	color: #0084b4;
+	text-decoration: none;
+}
+
+.twitterfeed .tweetEntry {
+    border-width: 0 0 1px;
+    padding: 12px 12px 10px 69px;
+    position: relative;
+}
+
+
+.twitterfeed ul li {
+  list-style:none;
+  overflow:hidden;
+  border:1px solid #dedede;
+}
+
+.twitterfeed ul li:hover {
+  background-color:#f0f3fb;
+}
+
+
+.twitterfeed .user a {
+    text-decoration: none;
+}
+
+.twitterfeed .timePosted {
+    color: #707070;
+    float: right;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    position: relative;
+    }
+    
+.twitterfeed .timePosted a {
+	color: #707070;
+    text-decoration: none;
+}
+
+.twitterfeed .media, .twitterfeed .media img{
+    margin: 10px 0 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+
+.twitterfeed ul {
+    Xposition: relative;
+    Xheight: 100%;
+}

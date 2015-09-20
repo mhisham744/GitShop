@@ -1,0 +1,50 @@
+<?xml version   ="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+                xmlns:gap   = "http://phonegap.com/ns/1.0"
+                id                      = "com.intel.sample"
+                versioncode = "1"
+                version                 = "1.0.0">
+ 
+ 
+                <name>Twat</name>
+ 
+ 
+                <content src="index.html"/>
+ 
+ 
+                <description>
+                   SAP Quality Management Application by CIC
+                </description>
+ 
+ 
+                <preference name="phonegap-version" value="3.1.0" />
+                <feature name="http://api.phonegap.com/1.0/camera"/>
+                <feature name="http://api.phonegap.com/1.0/file"/>
+                <feature name="http://api.phonegap.com/1.0/geolocation"/>
+ 
+ 
+                      <!-- for iPhone -->
+                      <plugin name="Camera" value="CDVCamera" />
+                      <plugin name="Geolocation" value="CDVLocation" />
+ 
+ 
+                <!-- for Android -->
+                <plugin name="Camera" value="org.apache.cordova.CameraLauncher"/>
+                <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+                <preference name="orientation" value="portrait" />
+                <preference name="android-minSdkVersion" value="9" />
+
+<icon src="icons/cic.png" />
+				
+<icon src="icons/cic.png" gap:platform="android" gap:density="ldpi" />
+				
+<icon src="icons/cic.png" gap:platform="android" gap:density="mdpi" />
+				
+<icon src="icons/cic.png" gap:platform="android" gap:density="hdpi" />
+
+<icon src="icons/cic.png" gap:platform="android" gap:density="xhdpi" />
+<gap:splash gap:density="ldpi" gap:platform="android" src="icons/splash.png" />
+<gap:splash gap:density="mdpi" gap:platform="android" src="icons/splash.png" />
+<gap:splash gap:density="hdpi" gap:platform="android" src="icons/splash.png" />
+<gap:splash gap:density="xhdpi" gap:platform="android" src="icons/splash.png" />
+</widget>
